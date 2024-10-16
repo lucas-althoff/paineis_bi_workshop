@@ -37,13 +37,23 @@ ou
 
 `python -m streamlit run painel_texto.py`
 
+# Passo a passo (github)
 
-# Passo a passo
+1) git clone `https://github.com/lucas-althoff/paineis_bi_workshop.git`
+2) Abrir VS Code
+3) Abrir a pasta File>Open Folder>workshop_paineis_streamlit-1
+4) Instalar bibliotecas
+   1) Abrir terminal em: Terminal>New Terminal
+   2) Executar no terminal esse código: `pip install -r requirements.txt`
+5) Executar os exemplos 
+   `python -m streamlit run painel_texto.py`
+
+# Passo a passo (instalação local)
 
 1) Instalar VS Code
 2) Instalar Python
 3) Baixar arquivo `workshop_paineis_streamlit-1.zip` no ambiente virtual 
-   1) https://ambientevirtual.idp.edu.br/courses/3815/assignments/15021
+   1) https://ambientevirtual.idp.edu.br/
 4) Descomprimir o arquivo `workshop_paineis_streamlit-1.zip`
 5) Abrir VS Code
 6) Abrir a pasta File>Open Folder>workshop_paineis_streamlit-1
