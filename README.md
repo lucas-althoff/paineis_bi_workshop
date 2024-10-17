@@ -69,11 +69,12 @@ ou
 
 # Kaggle
 
-1) Instalar client api kaggle: pip install Kaggle
-2) Entrar no site www.kaggle.com > Cadastrar no site > Settings > API > Create New Token
-3) Criar .env
-4) Copiar informações para .env
-5) Opcional: criar um arquivo .gitignore e adicionar o .env
+1) Instalar client api kaggle: `pip install Kaggle`
+2) Instalar pydantic-settings: `pip install pydantic-settings`
+3) Entrar no site www.kaggle.com > Cadastrar no site > Settings > API > Create New Token
+4) Criar .env
+5) Copiar informações para .env
+6) Opcional: criar um arquivo .gitignore e adicionar o .env
 6) Carregar configurações na variavel settings
 7) Rodar código `streamlit run paneinel_kaggle.py`
 
