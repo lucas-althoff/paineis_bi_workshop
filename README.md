@@ -62,3 +62,21 @@ ou
    2) Executar no terminal esse código: `pip install -r requirements.txt`
 8) Executar um exemplo 
    `python -m streamlit run painel_texto.py`
+
+
+
+---
+
+# Kaggle
+
+1) Instalar client api kaggle: pip install Kaggle
+2) Entrar no site www.kaggle.com > Cadastrar no site > Settings > API > Create New Token
+3) Criar .env
+4) Copiar informações para .env
+5) Opcional: criar um arquivo .gitignore e adicionar o .env
+6) Carregar configurações na variavel settings
+7) Rodar código `streamlit run paneinel_kaggle.py`
+
+# Tarefa de casa
+8) Incluir gráficos no painel e modificar Titulo incluindo seu nome
+9) Utilizar como referência o [repositório git](https://github.com/FedeCaprari/Ukraine-Missile-Interception-Dashboard/blob/main/Ukraine_graph_generator.py)
